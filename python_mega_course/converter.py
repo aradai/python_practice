@@ -6,7 +6,7 @@ def Cels_to_Fahr(cels = 0):
 def Fahr_to_Cels(fahr = 0):
     return (fahr - 32) * 5.0/9.0
 
-print(Cels_to_Fahr())
-print(Cels_to_Fahr(36))
-print(Fahr_to_Cels())
-print(Fahr_to_Cels(90))
+mylist = [0, 10, -20, 100]
+
+for cels in mylist:
+    print(Cels_to_Fahr(cels))
